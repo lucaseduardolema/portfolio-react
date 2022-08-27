@@ -5,7 +5,7 @@ import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
-import '../styles/Principal.css'
+import "../styles/Principal.css";
 
 const arrPhrase = [
   "Faça. Ou não faça. Não existe a tentativa. -Yoda, Mestre",
@@ -22,11 +22,11 @@ const arrPhrase = [
 ];
 
 function Principal() {
-  const [pharse, setPhrase] = useState('');
+  const [pharse, setPhrase] = useState("");
 
   useEffect(() => {
     const randomNumber = parseInt(Math.random() * arrPhrase.length);
-    setPhrase(arrPhrase[randomNumber])
+    setPhrase(arrPhrase[randomNumber]);
   }, []);
 
   const randomPhrase = () => {
@@ -34,18 +34,18 @@ function Principal() {
     setPhrase(arrPhrase[randomNumber]);
   };
 
-  return ( 
+  return (
     <>
       <Header />
       <Hero />
       <Container>
         <Row>
-        <Col className="star-wars-phrase" md={12}>
-          <p>{pharse}</p>
-          <Button variant="dark" onClick={randomPhrase}>
-            Use a força!
-          </Button>
-        </Col>
+          <Col className="star-wars-phrase" md={12}>
+            <p>{pharse}</p>
+            <Button variant="dark" onClick={randomPhrase}>
+              Use a força!
+            </Button>
+          </Col>
         </Row>
       </Container>
       <About />
