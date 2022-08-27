@@ -7,7 +7,7 @@ function Header() {
     <header>
       <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">Lucas Eduardo</Navbar.Brand>
+          <Navbar.Brand href="/portfolio-react">Lucas Eduardo</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
