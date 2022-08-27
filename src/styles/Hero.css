@@ -37,3 +37,7 @@
   justify-content: center;
   gap: 0 40px;
 }
+
+.hero-talk p {
+  margin: 0;
+}

@@ -10,9 +10,9 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#Sobre">Sobre</Nav.Link>
-            <Nav.Link href="#Projetos">Projetos</Nav.Link>
-            <Nav.Link href="#Contato">Contato</Nav.Link>
+            <Nav.Link href="#about">Sobre</Nav.Link>
+            <Nav.Link href="#projects">Projetos</Nav.Link>
+            <Nav.Link href="#contact">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

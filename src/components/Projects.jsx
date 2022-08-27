@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return ( 
-    <div id="Projetos">
+    <div id="projects">
       <p>projetos</p>
     </div>
   );

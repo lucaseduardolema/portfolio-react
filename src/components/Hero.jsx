@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Hero.css";
 import lucas from "../assets/lucas.png";
-import { Button, Container, Image } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 
 function Hero() {
   return (
     <Container fluid className="hero">
-      <div className="row">
-        <div className="hero-text-group col-md-6">
+      <Row>
+        <Col md={6} className="hero-text-group">
           <h1>Hello World!</h1>
           <h2>Eu sou o Lucas Eduardo</h2>
           <p>desenvolvedor web Full Stack</p>
@@ -18,12 +18,12 @@ function Hero() {
               Vamos conversar!
             </Button>
           </div>
-        </div>
+        </Col>
 
-        <div className="col-md-6">
+        <Col md={6}>
           <Image fluid src={lucas} alt="Foto Lucas" />
-        </div>
-      </div>
+        </Col>
+      </Row>
     </Container>
   );
 }
