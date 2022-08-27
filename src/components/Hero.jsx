@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Hero.css";
 import lucas from "../assets/lucas.png";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 
 function Hero() {
   return (
@@ -12,12 +12,6 @@ function Hero() {
           <h2>Eu sou o Lucas Eduardo</h2>
           <p>desenvolvedor web Full Stack</p>
           <p className="sub-press">Based in Brazil</p>
-          <div className="hero-talk">
-            <p>Tem um projeto?</p>
-            <Button variant="outline-success" size="lg">
-              Vamos conversar!
-            </Button>
-          </div>
         </Col>
 
         <Col md={6}>
