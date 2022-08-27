@@ -5,7 +5,7 @@ import Principal from "./pages/Principal";
 function App() {
   return (
     <Switch>
-      <Route exact path='/' component={ Principal } />
+      <Route exact path='/portfolio-react' component={ Principal } />
       <Route path='*' component={ NotFound } />
     </Switch>
   );
