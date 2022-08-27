@@ -1,33 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&display=swap");
 
-#about {
+#projects {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   font-family: "Gloria Hallelujah", cursive;
   min-height: 50vh;
 }
 
-.about-heading {
+.projects-heading {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
-}
-
-.star-wars-phrase {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: justify;
-  padding-bottom: 20px;
-}
-
-.star-wars-phrase p {
-  min-height: 100px;
-}
-
-.about-text {
-  text-align: justify;
 }

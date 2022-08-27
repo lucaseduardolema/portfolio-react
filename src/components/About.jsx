@@ -25,14 +25,16 @@ function About() {
   };
 
   return (
-    <Container id="about" className="about">
+    <Container id="about">
       <Row>
         <Col className="about-heading" md={12}>
           <h3>Um pouco sobre mim</h3>
         </Col>
         <Col className="star-wars-phrase" md={4}>
           <p>{pharse}</p>
-          <Button variant="dark" onClick={randomPhrase}>Use a força!</Button>
+          <Button variant="dark" onClick={randomPhrase}>
+            Use a força!
+          </Button>
         </Col>
         <Col md={8} className="about-text">
           <p>
