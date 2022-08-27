@@ -1,25 +1,30 @@
 import React from "react";
-import '../styles/Hero.css'
-import lucas from '../assets/lucas.png'
-import { Button } from "react-bootstrap";
+import "../styles/Hero.css";
+import lucas from "../assets/lucas.png";
+import { Button, Container, Image } from "react-bootstrap";
 
 function Hero() {
-  return ( 
-    <div className="hero">
-      <div>
-        <p className="apresentacao">Hello World!</p>
-        <p className="apresentacao">Lucas Eduardo desenvolvedor web Full Stack</p>
-        <p className="sub-press">Based in Brazil</p>
-        <div>
-          <p>Tem um projeto</p>
-          <Button>Vamos conversar!</Button>
+  return (
+    <Container fluid className="hero">
+      <div className="row">
+        <div className="hero-text-group col-md-6">
+          <h1>Hello World!</h1>
+          <h2>Eu sou o Lucas Eduardo</h2>
+          <p>desenvolvedor web Full Stack</p>
+          <p className="sub-press">Based in Brazil</p>
+          <div className="hero-talk">
+            <p>Tem um projeto?</p>
+            <Button variant="outline-success" size="lg">
+              Vamos conversar!
+            </Button>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <Image fluid src={lucas} alt="Foto Lucas" />
         </div>
       </div>
-
-      <div>
-        <img src={ lucas } alt="Foto Lucas" />
-      </div>
-    </div>
+    </Container>
   );
 }
 
