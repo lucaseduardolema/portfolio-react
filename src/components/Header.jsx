@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Header() {
   return (
     <header>
-      <Navbar expand="lg" bg="dark" variant="dark">
+      <Navbar fixed='top' expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/portfolio-react">Lucas Eduardo</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
