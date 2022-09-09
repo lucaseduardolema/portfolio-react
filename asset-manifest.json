@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4cabbc3e.css",
-    "main.js": "/portfolio-react/static/js/main.d6ff60d7.js",
+    "main.css": "/portfolio-react/static/css/main.6725c739.css",
+    "main.js": "/portfolio-react/static/js/main.1f6071ef.js",
     "static/media/clone-spotify.png": "/portfolio-react/static/media/clone-spotify.7951eb316c0d485012c8.png",
     "static/media/comercio.png": "/portfolio-react/static/media/comercio.4de199ef72dcd0db0d50.png",
     "static/media/trybetunes.png": "/portfolio-react/static/media/trybetunes.7596658c737aa36108d0.png",
+    "static/media/recipesApp.JPG": "/portfolio-react/static/media/recipesApp.51c5a04b0c6cd5b073ba.JPG",
     "static/media/starwars.png": "/portfolio-react/static/media/starwars.c190c519133ddda0421e.png",
-    "static/media/inprogress.png": "/portfolio-react/static/media/inprogress.cad96a9289d5f4a73070.png",
     "static/media/lucas.png": "/portfolio-react/static/media/lucas.ee384ff1581345c2f353.png",
     "static/media/trybewallet.png": "/portfolio-react/static/media/trybewallet.e85f812e1266a66721fb.png",
     "index.html": "/portfolio-react/index.html",
-    "main.4cabbc3e.css.map": "/portfolio-react/static/css/main.4cabbc3e.css.map",
-    "main.d6ff60d7.js.map": "/portfolio-react/static/js/main.d6ff60d7.js.map"
+    "main.6725c739.css.map": "/portfolio-react/static/css/main.6725c739.css.map",
+    "main.1f6071ef.js.map": "/portfolio-react/static/js/main.1f6071ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cabbc3e.css",
-    "static/js/main.d6ff60d7.js"
+    "static/css/main.6725c739.css",
+    "static/js/main.1f6071ef.js"
   ]
 }
