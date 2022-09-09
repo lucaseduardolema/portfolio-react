@@ -24,15 +24,15 @@ const arrPhrase = [
 function Principal() {
   const [pharse, setPhrase] = useState("");
 
-  useEffect(() => {
-    const randomNumber = parseInt(Math.random() * arrPhrase.length);
-    setPhrase(arrPhrase[randomNumber]);
-  }, []);
-
   const randomPhrase = () => {
     const randomNumber = parseInt(Math.random() * arrPhrase.length);
     setPhrase(arrPhrase[randomNumber]);
   };
+
+  useEffect(() => {
+    randomPhrase()
+  }, []);
+
 
   return (
     <>
