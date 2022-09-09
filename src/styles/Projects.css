@@ -15,3 +15,11 @@
   align-items: center;
   height: 80px;
 }
+
+.card-img-top {
+  min-height: 306px;
+}
+
+.card-text {
+  min-height: 260px;
+}
